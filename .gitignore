@@ -1,0 +1,6 @@
+Log/
+Data/
+Plots/
+mmsi.csv
+*.vor-fix
+*.vor-links
