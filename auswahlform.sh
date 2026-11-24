@@ -18,7 +18,7 @@ echo "<style>
 echo "</head><body>"
 
 echo "<div class='container'>"
-echo "<h1>Datenabfrage Team 11</h1>"
+echo "<h1>Datenabfrage Schiffe</h1>"
 
 echo "<form action='ergebnis.sh' method='get'>"
 
