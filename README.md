@@ -3,8 +3,7 @@
 Eine kleine Web-Anwendung mit Bash und CGI. Man wählt ein Datum und ein Schiff aus
 und bekommt eine Tabelle mit den AIS-Daten und ein Diagramm mit der Geschwindigkeit.
 
-Das ist mein eigenes Projekt. Ich habe es allein nach einer Aufgabe aus dem Studium
-an der Hochschule Bremerhaven gemacht.
+Wir haben das Projekt im Team an der Hochschule Bremerhaven gemacht.
 
 ## Bilder
 
@@ -35,10 +34,15 @@ Wenn keine MMSI gewählt ist oder das Datum in der Zukunft liegt, kommt eine Feh
 ## Ein Fehler, den ich später gefunden habe
 
 Am Anfang ging das Diagramm bis 350 Knoten. So schnell fährt kein Schiff.
-Ich hatte Feld 11 genommen, das ist aber der Kurs in Grad. Die Geschwindigkeit steht in Feld 7.
+Wir hatten Feld 11 genommen, das ist aber der Kurs in Grad. Die Geschwindigkeit steht in Feld 7.
 Auch die Spalten in der Tabelle waren verschoben. Jetzt stimmt es.
 
 Außerdem konnte `www-data` die Bilder nicht schreiben. Jetzt schreibt `plot.sh` das Bild direkt in den Web-Ordner.
+
+## Mein Teil
+
+Wir waren ein Team. Ich war für den CGI-Teil zuständig, also für das Formular (`auswahlform.sh`),
+die Ergebnisseite mit der Tabelle (`ergebnis.sh`) und das Diagramm (`plot.sh`).
 
 ## Ordner
 
